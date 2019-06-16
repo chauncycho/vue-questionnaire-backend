@@ -1,0 +1,11 @@
+web:
+  upload-path: /www/images/
+  doman: http://api.question.lusciousspace.cn
+spring:
+  datasource:
+    username: javaweb3
+    password: 332501080
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/javaweb3?useUnicode=True&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+server:
+  port: 8082

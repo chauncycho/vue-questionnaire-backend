@@ -1,0 +1,11 @@
+web:
+  upload-path: /Users/shihuazhuo/Desktop/file_upload_folder/
+  doman: http://127.0.0.1
+spring:
+  datasource:
+    username: chauncy
+    password: 332501080
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/javaweb3?useUnicode=True&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+server:
+  port: 8082
